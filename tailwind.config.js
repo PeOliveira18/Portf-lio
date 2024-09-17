@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -7,8 +8,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        cabecalho:{
-          100: 'rgb(23, 25, 35)'
+        dark:{
+          100: '#1A202C',
+          200: '#171923'
+        },
+        white:{
+          100: '#FFFFFF',
+          200: '#EDF2F7'
         }
       }
     },
