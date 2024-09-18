@@ -15,6 +15,16 @@ export default {
         white:{
           100: '#FFFFFF',
           200: '#EDF2F7'
+        },
+        fundoIcon:{
+          100: '#bcc1d413',
+          200: '#3C3E46',
+          300: '#E2E8F0',
+          400: '#cfd4db',
+          500: '#4d505a'
+        },
+        texto:{
+          100: '#2F8A89'
         }
       }
     },
