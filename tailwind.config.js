@@ -10,7 +10,8 @@ export default {
       colors: {
         dark:{
           100: '#1A202C',
-          200: '#171923'
+          200: '#171923',
+          300: '#2D3748'
         },
         white:{
           100: '#FFFFFF',

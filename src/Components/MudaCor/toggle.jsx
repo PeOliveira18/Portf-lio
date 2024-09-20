@@ -1,5 +1,6 @@
 import { MoonIcon, SunIcon } from "@heroicons/react/16/solid";
 import { useEffect } from "react";
+import BtnMenu from "../BotaoMenu/btnMenu";
 
 const ToggleTema = () => {
     const preferenciaDoSistema = window.matchMedia('(prefers-color-scheme: dark)').matches
@@ -11,14 +12,15 @@ const ToggleTema = () => {
         document.documentElement.classList.toggle('dark')
     }
 
-    return <div className="block">
-        <button className="block dark:hidden hover:bg-fundoIcon-300 active:bg-fundoIcon-400" onClick={toggle}>
+    return <div className="flex gap-12">
+        <button className="btn-fundo btn-dark" onClick={toggle}>
             <MoonIcon className="h-4 text-black"/>
         </button>
-        <button className="bg-fundoIcon-100  hidden dark:block hover:bg-fundoIcon-200 active:bg-fundoIcon-500" onClick={toggle}>
+        <button className="btn-fundo btn-sun" onClick={toggle}>
             <SunIcon className="h-4 text-white-100"/>
         </button>
     </div>
+    
 
 }
 

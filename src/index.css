@@ -3,9 +3,25 @@
 @tailwind utilities;
 
 @layer components{
-    .btn-dark{
-        @apply btnMudaCor px-4 py-3 rounded
-        px-4 py-3 rounded cursor-pointer
-        cursor-pointer
+    .btn-fundo{
+        @apply px-4 py-3 rounded cursor-pointer
     }
+
+    .desaparece{
+        @apply hidden md:block
+    }
+
+    .btn-sun{
+        @apply bg-fundoIcon-100 hidden dark:block hover:bg-fundoIcon-200 active:bg-fundoIcon-500
+    }
+
+    .btn-dark{
+        @apply block dark:hidden hover:bg-fundoIcon-300 active:bg-fundoIcon-400
+    }
+
+    .btn-menu{
+        @apply dark:bg-fundoIcon-100 hover:bg-fundoIcon-300 dark:hover:bg-fundoIcon-200
+        active:bg-fundoIcon-400 dark:active:bg-fundoIcon-500 block md:hidden
+    }
+
 }
