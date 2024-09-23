@@ -24,4 +24,12 @@
         active:bg-fundoIcon-400 dark:active:bg-fundoIcon-500 block md:hidden
     }
 
+    .btn-conectar{
+        @apply rounded-full bg-texto-100 py-3 px-5 items-center cursor-pointer w-fit mx-auto dark:text-texto-300 text-white-100 font-bold hover:bg-texto-500
+    }
+
+    .topicos{
+        @apply m-auto text-center max-w-[736px] pb-36
+    }
+
 }

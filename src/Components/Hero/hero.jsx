@@ -1,16 +1,21 @@
-import { Switch } from "@headlessui/react";
-
 
 function Hero() {
     return ( 
-        <section>
-            <div className="flex justify-center flex-col gap-3 pt-36 text-center">
-                <h1 className ='mt-4 text-black dark:text-white-100 text-6xl'>Ola, meu nome e Pedro</h1>
-                <h1 className="text-texto-100 text-6xl"> Sou Engenheiro de Software</h1>
-                <p className="text-xl pt-10 text-texto-200">Cursando o 2º semestre de Engenharia de Software na FIAP </p>
-                <a className="rounded-full bg-texto-100 py-3 px-5 mt-10 items-center cursor-pointer w-fit mx-auto">Vamos conectar!</a>
+        <section className="flex flex-col m-auto pt-36 pb-[144px] text-center max-w-[736px]">
+            <div className="gap-3 flex flex-col">
+                <h1 className ='mt-4 text-black dark:text-white-100 md:text-6xl text-3xl'>Ola, meu nome e Pedro</h1>
+                <h1 className="text-texto-100 md:text-6xl text-3xl">Engenheiro de Software</h1>
             </div>
-        </section>
+            <div className="mt-14">
+                <p className="text-xl md:text-2xl text-texto-200">Cursando o 2º semestre de Engenharia de Software na FIAP </p>
+            </div>
+            <div className="flex flex-col mt-14">
+                <a className="btn-conectar" href="https://www.linkedin.com/in/pedro-oliveira-a054412ba/" target="_blank">Vamos conectar!</a>
+            </div>
+            <div className="mt-3">
+                <a href="#" className="text-texto-400 hover:underline">Me contate</a>
+            </div>
+        </section> 
     );
 }
 
