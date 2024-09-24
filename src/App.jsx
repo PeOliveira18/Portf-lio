@@ -1,4 +1,4 @@
-import DivisaoSection from "./Components/Divisoes/divisao"
+import Contato from "./Components/Contato/contato"
 import Experiencia from "./Components/Experiencia/experiencia"
 import Header from "./Components/Header/header"
 import Hero from "./Components/Hero/hero"
@@ -17,6 +17,7 @@ function App() {
       <Experiencia/>
       <Projetos/>
       <OutrosProjetos/>
+      <Contato/>
     </>
   )
 }
