@@ -9,10 +9,10 @@ function CardOutrosProjetos() {
     return ( 
         <>
         <BtnCategorias setCategoria={setCategoria}/>
-        <div className="max-w-[736px] flex justify-around m-auto gap-4 mb-36">
+        <div className="md:max-w-[736px] max-w-full lg:flex grid lg:grid-cols-none md:grid-cols-2 grid-cols-1 m-auto gap-4 px-4 mb-36">
             {dadosOutrosProjetos.map((props, index) => (
                 (categoria === 0 || categoria === index + 1) &&(
-                <div key={index} className="w-[224px] max-h-screen border dark:border-0 bg-white-100 dark:bg-fundoIcon-1000 overflow-hidden rounded shadow-lg">
+                <div key={index} className="lg:w-[224px] w-full lg:gap-0 gap-3 m-auto border dark:border-0 bg-white-100 dark:bg-fundoIcon-1000 rounded shadow-lg">
                     <div className="p-5 text-left flex flex-col gap-2">
                         <h1 className=" font-bold text-black dark:text-white-100">{props.titulo}</h1>
                         <p className="text-black dark:text-white-100">{props.descricao}</p>

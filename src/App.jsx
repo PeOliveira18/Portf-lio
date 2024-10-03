@@ -6,12 +6,20 @@ import Hero from "./Components/Hero/hero"
 import OutrosProjetos from "./Components/OutrosProjetos/outrosProjetos"
 import Projetos from "./Components/Projetos/projetos"
 import Sobre from "./Components/Sobre/sobre"
+import styled from "styled-components"
+
+export const AppContainer = styled.div`
+  margin: 0;
+  padding: 0;
+  max-width:100%;
+
+`
 
 
 
 function App() {
   return (
-    <>
+    <AppContainer>
       <Header/>
       <Hero/>
       <Sobre/>
@@ -20,7 +28,7 @@ function App() {
       <OutrosProjetos/>
       <Contato/>
       <Footer/>
-    </>
+    </AppContainer>
   )
 }
 

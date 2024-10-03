@@ -4,7 +4,7 @@ function OutrosProjetos() {
     return ( 
         <section>
             <div className="m-auto text-center text-texto-700">
-                <p>Outros Projetos</p>
+                <p className="text-xl">Outros Projetos</p>
                 <CardOutrosProjetos/>
             </div>
         </section>

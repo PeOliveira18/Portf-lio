@@ -8,7 +8,7 @@ function Contato() {
     return (
         <div className="topicos">
             <DivisaoSection numero='04' descricao='Contato' />
-            <section className="max-w-[700px] text-center m-auto">
+            <section className="max-w-full text-center m-auto">
                 <div className="mt-14">
                     <h1 className="text-3xl text-black dark:text-white-100 font-bold">Vamos manter contato</h1>
                 </div>

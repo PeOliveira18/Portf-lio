@@ -12,7 +12,7 @@ function CardProjeto() {
     return (
         <div className="mt-14">
         {dadosCard.map(props => (
-            <div className="w-[725px] border dark:border-0 bg-white-100 dark:bg-fundoIcon-1000 overflow-hidden mt-4 rounded shadow-lg">
+            <div className="w-full border dark:border-0 bg-white-100 dark:bg-fundoIcon-1000 overflow-hidden mt-4 rounded shadow-lg">
                 <img className="w-full" src={props.foto} alt="Projeto 1" />
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2 text-black dark:text-white-100"> {props.titulo}</div>
