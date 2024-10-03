@@ -1,6 +1,5 @@
 import { MoonIcon, SunIcon } from "@heroicons/react/16/solid";
 import { useEffect } from "react";
-import BtnMenu from "../BotaoMenu/btnMenu";
 
 const ToggleTema = () => {
     const preferenciaDoSistema = window.matchMedia('(prefers-color-scheme: dark)').matches

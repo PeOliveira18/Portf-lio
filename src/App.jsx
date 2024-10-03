@@ -1,5 +1,6 @@
 import Contato from "./Components/Contato/contato"
 import Experiencia from "./Components/Experiencia/experiencia"
+import Footer from "./Components/Footer/footer"
 import Header from "./Components/Header/header"
 import Hero from "./Components/Hero/hero"
 import OutrosProjetos from "./Components/OutrosProjetos/outrosProjetos"
@@ -18,6 +19,7 @@ function App() {
       <Projetos/>
       <OutrosProjetos/>
       <Contato/>
+      <Footer/>
     </>
   )
 }

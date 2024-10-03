@@ -31,18 +31,4 @@ function CardProjeto() {
     );
 }
 
-/* 
-<div className="w-[725px] border dark:border-0 overflow-hidden mt-14 rounded shadow-lg">
-            <img className="w-full" src={projeto1} alt="Projeto 1"/>
-            <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2 text-black dark:text-white-100">Clone Airbnb</div>
-                <p className="text-black dark:text-white-100 text-base">Projeto realizado para a faculdade, com o intuito de fazer uma pagina de anuncio de alguma casa.</p>
-                <button className={BotaoCard}>Link</button>
-            </div>
-            <div className="px-6 pt-1 pb-4">
-            <span className={Badge}>BADGE</span>
-            </div>
-        </div>
-*/
-
 export default CardProjeto;

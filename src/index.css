@@ -40,4 +40,12 @@
         @apply m-auto text-center max-w-[736px] pb-36
     }
 
+    .input-contato{
+        @apply w-full rounded-md py-3 px-4 focus:text-white-100 bg-gray-100 focus:bg-transparent text-sm outline-blue-500
+    }
+
+    .imagens-footer{
+        @apply h-10 w-10
+    }
+
 }

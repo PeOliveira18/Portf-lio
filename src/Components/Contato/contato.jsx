@@ -1,13 +1,8 @@
 import DivisaoSection from "../Divisoes/divisao";
 import Form from "../Form/form";
+import ConfiguracoesSVG from "../SVG's/svgs";
 
 function Contato() {
-
-    const nome = document.getElementById('nome')
-    const email = document.getElementById('email')
-    const assunto = document.getElementById('assunto')
-    const mensagem = document.getElementById('mensagem')
-    
     
 
     return (
@@ -18,6 +13,11 @@ function Contato() {
                     <h1 className="text-3xl text-black dark:text-white-100 font-bold">Vamos manter contato</h1>
                 </div>
                 <Form/>
+                <div className="flex flex-col justify-center mt-3 gap-5">
+                    <p className="text-texto-100 font-bold">oliveirasilvapedro2@gmail.com</p>
+                    <p className="text-texto-100 font-bold">+55 (11) 96191-2468</p>
+                    <ConfiguracoesSVG/>
+                </div>            
             </section>
         </div>
         
