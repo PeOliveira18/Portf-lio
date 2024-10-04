@@ -22,6 +22,7 @@ function CardOutrosProjetos() {
                         <div className="pt-4">
                             <span className={Badge}>{props.badge1}</span>
                             {props.badge2 && <span className={Badge}>{props.badge2}</span>}
+                            {props.badge3 && <span className={Badge}>{props.badge3}</span>}
                         </div>
                     </div>
                 </div>

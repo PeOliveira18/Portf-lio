@@ -1,25 +1,21 @@
-import { Bars3Icon } from "@heroicons/react/20/solid";
-import { Drawer } from "@material-tailwind/react";
+/* import { Bars3Icon } from "@heroicons/react/20/solid";
 import { useState } from "react";
 import Modal from "../Drawer/modal";
 
 function BtnMenu() {
     const [openTop, setOpenTop] = useState(false)
-    
-    const openTopDrawer = () => setOpenTop(true) 
-    const closeTopDrawer = () => setOpenTop(false)
+    const toggleMenu = () => {
+        setOpenTop((prev) => !prev)
+    }
 
     return ( 
         <div className="pr-4">
             <div className="btn-fundo btn-menu">
-                <Bars3Icon className="h-4 text-black dark:text-white-100" onClick={openTopDrawer}/>
+                <Bars3Icon className="h-4 text-black dark:text-white-100" onClick={()=>}/>
             </div>
-            <Drawer placement="top" open={openTop} onClose={closeTopDrawer}>
-                <Modal/>
-            </Drawer>
+            {openTop &&  <Modal onClose={toggleMenu}/>}
         </div>       
-        
     );
 }
 
-export default BtnMenu;
+export default BtnMenu; */

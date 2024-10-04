@@ -6,7 +6,7 @@ function Contato() {
     
 
     return (
-        <div className="topicos">
+        <div className="topicos" id="contato">
             <DivisaoSection numero='04' descricao='Contato' />
             <section className="max-w-full text-center m-auto">
                 <div className="mt-14">

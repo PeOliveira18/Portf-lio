@@ -8,7 +8,7 @@
     }
 
     .desaparece{
-        @apply hidden md:block
+        @apply hidden md:block dark:hover:bg-fundoIcon-600 dark:active:bg-fundoIcon-500 hover:bg-fundoIcon-300 active:bg-fundoIcon-400 bg-transparent px-4 py-2 hover:rounded-md
     }
 
     .btn-sun{
@@ -29,7 +29,7 @@
     }
 
     .btn-categorias{
-        @apply bg-transparent hover:bg-white-200 dark:hover:bg-fundoIcon-500 text-black dark:text-white-100 font-semibold py-2 px-4 border dark:border-gray-700 rounded
+        @apply bg-transparent hover:bg-white-200 dark:hover:bg-fundoIcon-500 text-black dark:text-white-100 font-semibold py-2 px-4 border dark:border-gray-700 rounded w-[110px] 
     }
 
     .btn-categorias-ativo{
@@ -41,11 +41,16 @@
     }
 
     .input-contato{
-        @apply w-full rounded-md py-3 px-4 focus:text-white-100 bg-gray-100 focus:bg-transparent text-sm outline-blue-500
+        @apply w-full rounded-md py-3 px-4 dark:focus:text-white-100 focus:text-black bg-gray-100 focus:bg-transparent text-sm outline-blue-500 shadow-lg
+    }
+
+    .btn-enviar{
+        @apply text-white-100 bg-blue-500 hover:bg-blue-800 active:bg-blue-900 tracking-wide rounded-md text-sm px-4 py-3 w-full
     }
 
     .imagens-footer{
-        @apply h-10 w-10
+        @apply h-8 w-8
     }
+
 
 }

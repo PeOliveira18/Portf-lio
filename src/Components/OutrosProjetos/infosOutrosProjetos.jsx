@@ -1,18 +1,20 @@
 export const dadosOutrosProjetos= [
         {
-            titulo: 'Projeto Airbnb',
-            descricao: 'Projeto realizado para a faculdade, com o intuito de fazer uma pagina de anuncio de alguma casa.',
+            titulo: 'Projeto Global Solution',
+            descricao: 'Projeto final de semestre, juntamente com a Oceans 20 Brasil',
             badge1: 'HTML',
             badge2: 'CSS'
         },
         {
-            titulo: 'Projeto React',
-            descricao: 'Projeto realizado para a faculdade, com o intuito de fazer uma pagina de anuncio de alguma casa.',
-            badge1: 'React',
+            titulo: 'Projeto HTML e SQL',
+            descricao: 'Integracao de um formulario basico em HTML e CSS, com SQL',
+            badge1: 'HTML',
+            badge2: 'CSS',
+            badge3: 'SQL',
         },
         {
-            titulo: 'Projeto Airbnb',
-            descricao: 'Projeto realizado para a faculdade, com o intuito de fazer uma pagina de anuncio de alguma casa.',
+            titulo: 'Projeto Tailwind',
+            descricao: 'Primeiro projeto utilizando Tailwind, feito juntamento com a Alura.',
             badge1: 'React',
             badge2: 'Tailwind'
         } 

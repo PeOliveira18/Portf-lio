@@ -4,10 +4,12 @@ import App from './App.jsx'
 import './index.css'
 import { ThemeProvider } from '@material-tailwind/react'
 
+
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <ThemeProvider>
-      <App />
+      <App/>
     </ThemeProvider>
   </StrictMode>,
 )
