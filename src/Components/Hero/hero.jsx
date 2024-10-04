@@ -1,4 +1,6 @@
 import seta from '../../images/arrow.png'
+import setaBranca from '../../images/arrow-white.png'
+import theme from '@material-tailwind/react/theme';
 
 function Hero() {
     return (
@@ -12,8 +14,12 @@ function Hero() {
             </div>
             <div className="flex flex-col mt-14">
                 <a className="btn-conectar" href="https://www.linkedin.com/in/pedro-oliveira-a054412ba/" target="_blank">Vamos conectar!</a>
-                <div className='absolute right-20 '>
-                    <img src={seta} alt="" className='w-16 h-16 text-black dark:text-white-100' />
+                <div className='absolute flex right-72 top-[470px]'>
+                <img src={seta} alt="Seta" className='w-16 h-16 dark:hidden' 
+                    />
+                    <img src={setaBranca} alt="Seta" className='w-16 h-16 hidden dark:block'
+                    />
+                    <p className='absolute left-16 top-6 w-20 italic font-caveat dark:text-white-100 text-black font-bold text-lg -rotate-12'>Clique aqui</p>
                 </div>
             </div>
             <div className="mt-3">

@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const withMT = require("@material-tailwind/react/utils/withMT")
 
-
 module.exports= withMT( {
   darkMode: 'class',
   content: [
@@ -45,7 +44,10 @@ module.exports= withMT( {
           800: '#80E4D7',
           900: '#2C7A7B'
         }
-      }, 
+      },
+        fontFamily:{
+          caveat: ['Caveat', 'cursive']
+        }
     },
   },
   plugins: [],
