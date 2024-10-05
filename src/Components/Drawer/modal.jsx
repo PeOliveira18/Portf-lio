@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { Bars3Icon } from "@heroicons/react/20/solid";
 import { Drawer } from "@material-tailwind/react";
+import {Link as ScrollLink } from 'react-scroll'
 
 function Modal() {
     const [openTop, setOpenTop] = useState(false)
@@ -17,10 +18,18 @@ function Modal() {
             <Drawer open={openTop} onClose={closeDrawer} placement="top" className="flex items-end pl-5 bg-dark-300 w-full fixed -top-[236px] left-0 transition-transform transform">
                 <div className="w-full bg-dark-300 py-5">
                     <div className="flex sm:gap-7 gap-1 sm:pl-4 pl-0">
-                        <a href="#">About</a>
-                        <a href="#">Experience</a>
-                        <a href="#">Projects</a>
-                        <a href="#">Contact</a>
+                    <ScrollLink to='sobre' smooth={true} duration={500}>
+                    <a href="#">Sobre</a>
+                </ScrollLink> 
+                <ScrollLink to='experiencia' smooth={true} duration={500}>
+                    <a href="#">Experiencia</a>
+                </ScrollLink>
+                <ScrollLink to='projetos' smooth={true} duration={500}>
+                    <a href="#">Projetos</a>
+                </ScrollLink>
+                <ScrollLink to='contato' smooth={true} duration={500}>
+                    <a href="#">Contato</a>
+                </ScrollLink>
                     </div>
                 </div>
             </Drawer>

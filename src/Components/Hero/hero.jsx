@@ -1,5 +1,6 @@
 import seta from '../../images/arrow.png'
 import setaBranca from '../../images/arrow-white.png'
+import { Link as ScrollLink } from 'react-scroll'
 
 function Hero() {
     return (
@@ -14,7 +15,7 @@ function Hero() {
             <div className="flex flex-col mt-14">
                 <a className="btn-conectar" href="https://www.linkedin.com/in/pedro-oliveira-a054412ba/" target="_blank">Vamos conectar!</a>
                 <div className='flex items-center justify-center pl-10'>
-                    <img src={seta} alt="Seta" className='w-16 h-16 dark:hidden' 
+                    <img src={seta} alt="Seta" className='w-16 h-16 dark:hidden'
                     />
                     <img src={setaBranca} alt="Seta" className='w-16 h-16 hidden dark:block'
                     />
@@ -22,7 +23,9 @@ function Hero() {
                 </div>
             </div>
             <div className="mt-3">
-                <a href="#" className="text-texto-400 hover:underline">Me contate</a>
+                <ScrollLink to='forms' smooth={true} duration={500}>
+                    <a href="#" className="text-texto-400 hover:underline">Me contate</a>
+                </ScrollLink>
             </div>
         </section>
     );

@@ -22,6 +22,12 @@ function Form() {
         emailjs.send("service_bzchqy9","template_shs3ijb", templateParams, "htE14yKxNT8JrJ6Tr")
         .then((res) => {
             console.log("EMAIL ENVIADO", res.status, res.text)
+
+            console.log(`Nome: ${nome}`);
+            console.log(`Email: ${email}`);
+            console.log(`Assunto: ${assunto}`);
+            console.log(`Mensagem: ${mensagem}`);
+
             alert('Formulario enviado com sucesso')
             setNome('')
             setEmail('')
@@ -36,7 +42,7 @@ function Form() {
 
     return (  
         <div className="p-4 mx-auto max-w-xl bg-white font-[sans-serif]">
-            <form className="mt-8 space-y-4" onSubmit={sendEmail}>
+            <form className="mt-8 space-y-4" onSubmit={sendEmail} id="forms">
                 <input type='text' placeholder='Nome' required id="nome" className="input-contato" onChange={(e) => setNome(e.target.value)} value={nome}/>
 
                 <input type='email' placeholder='Email' required id="email" className="input-contato invalid:outline-red-500 invalid:text-red-500" onChange={(e) => setEmail(e.target.value)} value={email}/>

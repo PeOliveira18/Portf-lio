@@ -4,6 +4,7 @@ import tailwind from '../../images/tailwind.svg'
 import heroIcon from '../../images/heroIcon.svg'
 import emailjs from '../../images/emailjs.svg'
 import styled from '../../images/styled-components.png'
+import material from '../../images/material.svg'
 
 function Footer() {
     return (
@@ -16,6 +17,7 @@ function Footer() {
                 <img src={heroIcon} alt="Icone Hero Icon" className='imagens-footer'/>
                 <img src={emailjs} alt="Icone EmailJs" className='imagens-footer'/>
                 <img src={styled} alt="Icone Styled Components" className='imagens-footer'/>
+                <img src={material} alt="Icone Material Tailwind" className='imagens-footer'/>
             </div>
         </footer>
     );

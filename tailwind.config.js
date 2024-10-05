@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const { keyframes } = require('@emotion/react')
 const withMT = require("@material-tailwind/react/utils/withMT")
 
 module.exports= withMT( {
@@ -45,10 +46,25 @@ module.exports= withMT( {
           900: '#2C7A7B'
         }
       },
-        fontFamily:{
-          caveat: ['Caveat', 'cursive']
+      fontFamily:{
+        caveat: ['Caveat', 'cursive']
+      },
+      keyframes: {
+        "fade-in-up":{
+          "0%":{
+            opacity:'0',
+            transform: 'translateY(200px)',
+          },
+          "100%":{
+            opacity: '1',
+            transform: "translateY(0)",
+          }
         }
+      },
+      animation:{
+        'fade-in-up': 'fade-in-up 0.5s ease-out',
+      },
     },
   },
-  plugins: [],
+  plugins: []
 })
