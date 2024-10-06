@@ -10,7 +10,7 @@ function CardOutrosProjetos() {
     return (
         <>
             <BtnCategorias setCategoria={setCategoria} />
-            <div className={`md:max-w-[736px] max-w-full lg:flex grid lg:grid-cols-none md:grid-cols-2 grid-cols-1 m-auto gap-4 px-4 mb-36 ${setRef ? "animate-fade-in-up" : "opacity-0"}`} ref={ref}>
+            <div className={`md:max-w-[736px] max-w-full lg:flex grid lg:grid-cols-none md:grid-cols-2 grid-cols-1 m-auto gap-4 px-4 mb-36 ${setRef && "animate-fade-in-up"}`} ref={ref}>
                 {dadosOutrosProjetos.map((props, index) => (
                     (categoria === 0 || categoria === index + 1) && (
                         <div key={index} className="lg:w-[224px] w-full lg:gap-0 gap-3 m-auto border dark:border-0 bg-white-100 dark:bg-fundoIcon-1000 rounded shadow-lg">

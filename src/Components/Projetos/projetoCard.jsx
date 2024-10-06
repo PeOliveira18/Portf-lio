@@ -9,8 +9,6 @@ export const Badge = `
 `
 
 function CardProjeto() {
-    
-
     return (
         <div className={"mt-14"}>
         {dadosCard.map(props => {

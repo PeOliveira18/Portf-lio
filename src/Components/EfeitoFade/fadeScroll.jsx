@@ -13,7 +13,7 @@ const FadeScroll = (options) => {
                 }
             },
             options
-        );
+        )
 
         if (ref.current) {
             observer.observe(ref.current)
@@ -23,7 +23,7 @@ const FadeScroll = (options) => {
             if (ref.current) {
                 observer.unobserve(ref.current)
             }
-        };
+        }
     }, [options])
 
     return [ref, isVisible]
