@@ -19,17 +19,20 @@ function Modal() {
                 <div className="w-full bg-dark-300 py-5">
                     <div className="flex sm:gap-7 gap-1 sm:pl-4 pl-0">
                     <ScrollLink to='sobre' smooth={true} duration={500}>
-                    <a href="#">Sobre</a>
-                </ScrollLink> 
-                <ScrollLink to='experiencia' smooth={true} duration={500}>
-                    <a href="#">Experiencia</a>
-                </ScrollLink>
-                <ScrollLink to='projetos' smooth={true} duration={500}>
-                    <a href="#">Projetos</a>
-                </ScrollLink>
-                <ScrollLink to='contato' smooth={true} duration={500}>
-                    <a href="#">Contato</a>
-                </ScrollLink>
+                        <a href="#">Sobre</a>
+                    </ScrollLink> 
+                    <ScrollLink to='linguagens' smooth={true} duration={500}>
+                        <a href="#">Tecnologias</a>
+                    </ScrollLink> 
+                    <ScrollLink to='experiencia' smooth={true} duration={500}>
+                        <a href="#">Experiencia</a>
+                    </ScrollLink>
+                    <ScrollLink to='projetos' smooth={true} duration={500}>
+                        <a href="#">Projetos</a>
+                    </ScrollLink>
+                    <ScrollLink to='contato' smooth={true} duration={500}>
+                        <a href="#">Contato</a>
+                    </ScrollLink>
                     </div>
                 </div>
             </Drawer>

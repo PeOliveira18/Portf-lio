@@ -15,6 +15,9 @@ function Header() {
                 <ScrollLink to='sobre' smooth={true} duration={500}>
                     <a href="" className="desaparece">Sobre</a>
                 </ScrollLink> 
+                <ScrollLink to='linguagens' smooth={true} duration={500}>
+                    <a href="" className="desaparece">Linguagens</a>
+                </ScrollLink> 
                 <ScrollLink to='experiencia' smooth={true} duration={500}>
                     <a href="" className="desaparece">Experiencia</a>
                 </ScrollLink>

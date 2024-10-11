@@ -4,7 +4,7 @@ import CardProjeto from "./projetoCard";
 function Projetos() {
     return ( 
         <div className="topicos" id="projetos">
-            <DivisaoSection numero='03' descricao = 'Projetos'/>
+            <DivisaoSection numero='04' descricao = 'Projetos'/>
             <section className="max-w-full text-justify px-4">
                 <CardProjeto/>
             </section>

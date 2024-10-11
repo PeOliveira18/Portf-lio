@@ -3,6 +3,7 @@ import Experiencia from "./Components/Experiencia/experiencia"
 import Footer from "./Components/Footer/footer"
 import Header from "./Components/Header/header"
 import Hero from "./Components/Hero/hero"
+import Linguagens from "./Components/Linguagens/linguagens"
 import OutrosProjetos from "./Components/OutrosProjetos/outrosProjetos"
 import Projetos from "./Components/Projetos/projetos"
 import Sobre from "./Components/Sobre/sobre"
@@ -23,6 +24,7 @@ function App() {
       <Header/>
       <Hero/>
       <Sobre/>
+      <Linguagens/>
       <Experiencia/>
       <Projetos/>
       <OutrosProjetos/>

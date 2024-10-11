@@ -8,7 +8,7 @@
     }
 
     .desaparece{
-        @apply hidden md:block dark:hover:bg-fundoIcon-600 dark:active:bg-fundoIcon-500 hover:bg-fundoIcon-300 active:bg-fundoIcon-400 bg-transparent px-4 py-2 hover:rounded-md
+        @apply hidden tablet:block dark:hover:bg-fundoIcon-600 dark:active:bg-fundoIcon-500 hover:bg-fundoIcon-300 active:bg-fundoIcon-400 bg-transparent px-4 py-2 hover:rounded-md
     }
 
     .btn-sun{
@@ -21,7 +21,7 @@
 
     .btn-menu{
         @apply dark:bg-fundoIcon-100 hover:bg-fundoIcon-300 dark:hover:bg-fundoIcon-200
-        active:bg-fundoIcon-400 dark:active:bg-fundoIcon-500 block md:hidden
+        active:bg-fundoIcon-400 dark:active:bg-fundoIcon-500 block tablet:hidden mr-8
     }
 
     .btn-conectar{
@@ -50,6 +50,13 @@
 
     .imagens-footer{
         @apply h-8 w-8
+    }
+
+    .imagens-tecnologias{
+        @apply h-10 w-10
+    }
+    .nome-tecnologias{
+        @apply flex justify-between text-black dark:text-texto-200 px-8 items-center
     }
 
 }

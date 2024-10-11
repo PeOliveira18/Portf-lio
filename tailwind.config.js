@@ -64,6 +64,9 @@ module.exports= withMT( {
       animation:{
         'fade-in-up': 'fade-in-up 0.5s ease-out',
       },
+      screens: {
+        'tablet': '860px',
+      }
     },
   },
   plugins: []

@@ -7,7 +7,7 @@ export const dadosCard = [
     {
         foto: projeto1,
         titulo: 'Projeto Airbnb',
-        descricao: 'Projeto realizado para a faculdade, com o intuito de fazer uma pagina de anuncio de alguma casa.',
+        descricao: 'Projeto realizado para a faculdade, com o intuito de fazer uma pagina responsiva de anuncio de alguma casa.',
         link: 'https://github.com/PeOliveira18/CloneAirbnb',
         badge1: 'HTML',
         badge2: 'CSS'
