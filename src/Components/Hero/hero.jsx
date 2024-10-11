@@ -8,8 +8,8 @@ function Hero() {
         <section className="flex flex-col m-auto pt-36 pb-[144px] text-center max-w-[736px]">
             <div className="gap-3 flex flex-col">
                 <h1 className='mt-4 text-black dark:text-white-100 md:text-6xl text-3xl'>Olá, meu nome é Pedro</h1>
-                <h1 className="text-texto-100 md:text-6xl text-3xl">Engenheiro de Software</h1>
-                <img src={minhaFoto} alt="Foto de Pedro Oliveira" className='md:w-36 w-28 m-auto'/>
+                <h1 className="text-texto-100 md:text-5xl text-3xl">Engenheiro de Software</h1>
+                <img src={minhaFoto} alt="Foto de Pedro Oliveira" className='md:w-36 w-28 m-auto mt-5'/>
             </div>
             <div className="mt-10">
                 <p className="text-xl md:text-2xl text-texto-200">Cursando o 2º semestre de Engenharia de Software na FIAP </p>
