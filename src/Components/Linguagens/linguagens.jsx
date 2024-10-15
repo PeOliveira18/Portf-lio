@@ -6,6 +6,7 @@ import foto4 from '../../images/react.svg'
 import foto5 from '../../images/tailwind.svg'
 import foto6 from '../../images/python.svg'
 import foto7 from '../../images/sql.svg'
+import foto8 from '../../images/git.svg'
 
 function Linguagens() {
     return (  
@@ -44,6 +45,11 @@ function Linguagens() {
                 <div className="nome-tecnologias">
                     <h1>SQL</h1>
                     <img src={foto7} alt="Logo SQL" className="imagens-tecnologias"/>
+                </div>
+
+                <div className="nome-tecnologias">
+                    <h1>GIT</h1>
+                    <img src={foto8} alt="Logo GIT" className="imagens-tecnologias"/>
                 </div>
 
             </div>
