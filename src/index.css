@@ -56,7 +56,10 @@
         @apply h-10 w-10
     }
     .nome-tecnologias{
-        @apply flex justify-between text-black dark:text-texto-200 px-8 items-center
+        @apply flex justify-between text-black dark:text-texto-200 items-center
+    }
+    .descricoes{
+        @apply max-w-[700px] text-left m-auto sm:pl-[98px] pl-[70px] sm:pr-0 pr-16
     }
 
 }

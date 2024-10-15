@@ -66,6 +66,7 @@ module.exports= withMT( {
       },
       screens: {
         'tablet': '860px',
+        'celularMenor': '365px'
       }
     },
   },

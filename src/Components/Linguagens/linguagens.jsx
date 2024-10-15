@@ -11,7 +11,7 @@ function Linguagens() {
     return (  
         <div className="topicos" id="linguagens">
             <DivisaoSection numero='02' descricao = 'Tecnologias'/>
-            <div className=" flex flex-col px-5 flex-wrap justify-between gap-4 max-w-full m-auto pl-[98px]">
+            <div className=" flex flex-col flex-wrap justify-between gap-4 descricoes md:pr-0 pr-16">
                 <div className="nome-tecnologias">
                     <h1>HTML</h1>
                     <img src={foto1} alt="Logo HTML" className="imagens-tecnologias"/>
