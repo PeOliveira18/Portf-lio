@@ -19,7 +19,7 @@ function Form() {
             message: mensagem
         }
 
-        emailjs.send("service_bzchqy9","template_shs3ijb", templateParams, "htE14yKxNT8JrJ6Tr")
+        emailjs.send("service_nmnz6uo","template_shs3ijb", templateParams, "htE14yKxNT8JrJ6Tr")
         .then((res) => {
             console.log("EMAIL ENVIADO", res.status, res.text)
 
