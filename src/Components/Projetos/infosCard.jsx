@@ -1,6 +1,6 @@
 import projeto1 from '../../images/projeto1.png'
-import projeto2 from '../../images/projeto2.png'
-import projeto3 from '../../images/projeto3.png'
+import projeto2 from '../../images/PortalFilmes.png'
+import projeto3 from '../../images/Pokedex.png'
 
 
 export const dadosCard = [
@@ -14,18 +14,18 @@ export const dadosCard = [
     },
     {
         foto: projeto2,
-        titulo: 'Projeto Videos Online',
-        descricao: 'Projeto realizado para a faculdade. Primeiro em React, com o intuito de simular um site de cursos de video.',
-        link: 'https://github.com/PeOliveira18/CK-React-Web',
+        titulo: 'Projeto Portal Filmes',
+        descricao: 'Projeto em React, que simula um portal de filmes. As informacoes dos filmes foram consumidas a partir da Api The Movie Data Base.',
+        link: 'https://github.com/PeOliveira18/PortalFilmes',
         badge1: 'React',
+        badge2: 'Tailwind',
     },
     {
         foto: projeto3,
-        titulo: 'Projeto Tech Mahindra',
-        descricao: 'Projeto realizado para a faculdade, com o intuito de faxer uma aplicacao Web para a Tech Mahindra.',
-        link: 'https://github.com/PeOliveira18/FormulaE',
+        titulo: 'Projeto Pokedex',
+        descricao: 'Criacao de uma Pokedex, feita em React e estilizada com Tailwind. A insercao dos dados dos pokemons foram feitas a partir da Poke Api.',
+        link: 'https://github.com/PeOliveira18/Pokedex',
         badge1: 'React',
         badge2: 'Tailwind',
-        badge3: 'SQL'
     }
 ]
