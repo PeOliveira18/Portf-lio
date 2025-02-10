@@ -20,7 +20,8 @@ function CardProjeto() {
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2 text-black dark:text-white-100"> {props.titulo}</div>
                     <p className="text-black dark:text-white-100 text-base">{props.descricao}</p>
-                    <a href={props.link} target="_blank"><button className={BotaoCard}>Link</button></a>
+                    <a href={props.link} target="_blank"><button className={BotaoCard}>GitHub</button></a>
+                    <a href={props.link2} target="_blank" className="ml-3"><button className={BotaoCard}>Pagina</button></a>
                 </div>
                 <div className="px-6 pt-1 pb-4">
                     <span className={Badge}>{props.badge1}</span>
